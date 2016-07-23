@@ -3,7 +3,7 @@ html, body {
     width: 100%;
     height: 100%;
     
-    /* The universe is black */
+    /* The universe background */
     background-image:url("../images/bg.jpg");
 	
 	
@@ -14,7 +14,7 @@ body{
 	top:20px;
 	
 }
-
+/* sun image */
 #sun {
     position: absolute;
     /* Positions the top-left corner of the image to be *
@@ -22,7 +22,7 @@ body{
     top: 50%;
     left: 50%;
     
-    /* Play with these numbers to see what it does */
+    /* Sun size and position */
     height: 200px;
     width: 200px;
     margin-top: -100px; 
@@ -30,9 +30,8 @@ body{
     z-index:9;
 
 }
-
+/* planets and orbits with CSS animation*/
 #mercury {
-    /* Style your earth */
     position:absolute;
     top:0%;
     left:50%;
@@ -46,7 +45,7 @@ body{
 }
 
 #mercury-orbit {
-    /* For Section #2 */
+    
         position: absolute;
     top: 50%;
     left: 50%;
@@ -63,7 +62,7 @@ body{
 	z-index:8;
 	
     
-     /* ... your other orbit styles ... */
+     /* ... orbit animation and speed ... */
 
   -webkit-animation: spin-right 8s linear infinite;
      -moz-animation: spin-right 8s linear infinite;
@@ -75,7 +74,7 @@ body{
 
 
 #venus {
-    /* Style your earth */
+    
     position:absolute;
     top:0%;
     left:50%;
@@ -89,7 +88,7 @@ body{
 }
 
 #venus-orbit {
-    /* For Section #2 */
+   
         position: absolute;
     top: 50%;
     left: 50%;
@@ -105,7 +104,7 @@ body{
     border-radius: 50%;
 	z-index:7;
     
-     /* ... your other orbit styles ... */
+     
 
   -webkit-animation: spin-right 9s linear infinite;
      -moz-animation: spin-right 9s linear infinite;
@@ -118,7 +117,7 @@ body{
 
 
 #earth {
-    /* Style your earth */
+    
     position:absolute;
     top:0%;
     left:50%;
@@ -132,7 +131,7 @@ body{
 }
 
 #earth-orbit {
-    /* For Section #2 */
+   
         position: absolute;
     top: 50%;
     left: 50%;
@@ -148,7 +147,7 @@ body{
     border-radius: 50%;
 	z-index:6;
     
-     /* ... your other orbit styles ... */
+     
 
   -webkit-animation: spin-right 10s linear infinite;
      -moz-animation: spin-right 10s linear infinite;
@@ -158,7 +157,7 @@ body{
 }
 
 #moon {
-    /* Style your earth */
+  
     position:absolute;
     top:0%;
     left:50%;
@@ -172,7 +171,7 @@ body{
 }
 
 #moon-orbit {
-    /* For Section #2 */
+   
         position: absolute;
     top: 50%;
     left: 50%;
@@ -184,7 +183,6 @@ body{
 
 
     
-     /* ... your other orbit styles ... */
 
   -webkit-animation: spin-right 5s linear infinite;
      -moz-animation: spin-right 5s linear infinite;
@@ -194,7 +192,7 @@ body{
 }
 
 #mars {
-    /* Style your earth */
+    
     position:absolute;
     top:0%;
     left:50%;
@@ -208,7 +206,7 @@ body{
 }
 
 #mars-orbit {
-    /* For Section #2 */
+    
         position: absolute;
     top: 50%;
     left: 50%;
@@ -224,7 +222,7 @@ body{
     border-radius: 50%;
 	z-index:5;
     
-     /* ... your other orbit styles ... */
+     
 
   -webkit-animation: spin-right 11s linear infinite;
      -moz-animation: spin-right 11s linear infinite;
@@ -234,7 +232,7 @@ body{
 }
 
 #jupiter {
-    /* Style your earth */
+    
     position:absolute;
     top:0%;
     left:50%;
@@ -248,7 +246,7 @@ body{
 }
 
 #jupiter-orbit {
-    /* For Section #2 */
+    
         position: absolute;
     top: 50%;
     left: 50%;
@@ -264,7 +262,7 @@ body{
     border-radius: 50%;
 	z-index:4;
     
-     /* ... your other orbit styles ... */
+     
 
   -webkit-animation: spin-right 13s linear infinite;
      -moz-animation: spin-right 13s linear infinite;
@@ -274,7 +272,7 @@ body{
 }
 
 #saturn {
-    /* Style your earth */
+    
     position:absolute;
     top:0%;
     left:50%;
@@ -288,7 +286,7 @@ body{
 }
 
 #saturn-orbit {
-    /* For Section #2 */
+    
         position: absolute;
     top: 50%;
     left: 50%;
@@ -304,7 +302,7 @@ body{
     border-radius: 50%;
 	z-index:3;
     
-     /* ... your other orbit styles ... */
+     
 
   -webkit-animation: spin-right 14s linear infinite;
      -moz-animation: spin-right 14s linear infinite;
@@ -314,7 +312,7 @@ body{
 }
 
 #uranus {
-    /* Style your earth */
+    
     position:absolute;
     top:0%;
     left:50%;
@@ -328,7 +326,7 @@ body{
 }
 
 #uranus-orbit {
-    /* For Section #2 */
+    
         position: absolute;
     top: 50%;
     left: 50%;
@@ -344,7 +342,7 @@ body{
     border-radius: 50%;
 	z-index:2;
     
-     /* ... your other orbit styles ... */
+     
 
   -webkit-animation: spin-right 15s linear infinite;
      -moz-animation: spin-right 15s linear infinite;
@@ -354,7 +352,7 @@ body{
 }
 
 #neptune {
-    /* Style your earth */
+    
     position:absolute;
     top:0%;
     left:50%;
@@ -368,7 +366,7 @@ body{
 }
 
 #neptune-orbit {
-    /* For Section #2 */
+    
         position: absolute;
     top: 50%;
     left: 50%;
@@ -384,7 +382,7 @@ body{
     border-radius: 50%;
 	z-index:1;
     
-     /* ... your other orbit styles ... */
+     
 
   -webkit-animation: spin-right 17s linear infinite;
      -moz-animation: spin-right 17s linear infinite;
@@ -392,7 +390,7 @@ body{
        -o-animation: spin-right 17s linear infinite;
           animation: spin-right 17s linear infinite;
 }
-
+/* hover on each orbit changes colour */
 #mercury-orbit:hover{
 	position:absolute;
     border-width: 1px;
@@ -466,7 +464,7 @@ body{
 }
 
 
-
+/* animation to make the orbit spin/rotate */
 @-webkit-keyframes spin-right {
   100% {
     -webkit-transform: rotate(360deg);
@@ -486,7 +484,7 @@ body{
             transform: rotate(360deg);
   }
 }
-
+/* portfolio link */
 header{
 
 	color:white;
@@ -508,7 +506,7 @@ header a{
 header a:hover{
 	color:#66ccff;
 }
-
+/* make stars in the background animate*/
 #stars-left{
 	position:absolute;
 	    top: 25%;
@@ -545,7 +543,7 @@ header a:hover{
 	
 }
 
-
+/* animation for making stars shine */
 @keyframes shine {
     0%   {opacity:0.2;}
     50%  {opacity:1;}
